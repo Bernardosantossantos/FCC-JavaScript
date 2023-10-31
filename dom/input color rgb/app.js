@@ -29,3 +29,17 @@ rojo = e.target.value;
 textoRojo.innerText = rojo;
 actualizarColor(rojo, verde, azul);
 });
+
+// Para actualizar Green (Verde).
+inputVerde.addEventListener('change', (e) => {
+    verde = e.target.value;
+    textoVerde.innerText = verde;
+    actualizarColor(rojo, verde, azul);
+    });
+
+    // Para actualizar Blue (Azul).
+inputAzul.addEventListener('change', (e) => {
+    azul = e.target.value;
+    textoAzul.innerText = azul;
+    actualizarColor(rojo, verde, azul);
+    });
