@@ -1,4 +1,4 @@
-let citas = [
+var citas = [
   {
     'autor': 'Albert Einstein',
     'texto': 'No poseo talentos especiales. Solo soy apasionadamente curioso.'
